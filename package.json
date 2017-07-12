@@ -1,0 +1,25 @@
+{
+  "name": "automation",
+  "version": "0.1.0",
+  "description": "Acceptance Tests",
+  "scripts": {
+    "debug": "codeceptjs run --config globalConfig.js --debug",
+    "verbose": "codeceptjs run --config globalConfig.js --verbose",
+    "shell": "codeceptjs shell",
+    "staging": "codeceptjs run --config runners/stagingConfig.js --reporter mochawesome"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:kuznetsovav/automation.git"
+  },
+  "dependencies": {
+    "babel-register": "^6.22.0",
+    "codeceptjs": "0.6.3",
+    "sync-request": "^4.0.1",
+    "webdriverio": "^4.5.1"
+  },
+  "devDependencies": {
+    "mochawesome": "1.5.4"
+  },
+  "license": "ISC"
+}

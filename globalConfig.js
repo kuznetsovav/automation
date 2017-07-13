@@ -14,8 +14,8 @@ exports.config = {
     },
   },
   "include": {
-      homePage: path.resolve(basePath, './features/home/homePageObject.js'),
+      toDoList: path.resolve(basePath, './features/toDoList/toDoListPageObject.js'),
   },
   "bootstrap": false,
-  "name": "test",
+  "name": "ToDo List",
 };

@@ -2,7 +2,17 @@
 
 <h3>Build instructions</h3>
 
+Actual for Ubuntu 16.04: 
+
+Install Java
+
 Install Node.js
+
+Install Selenium Standalone Server
+
+Install Git
+
+Pull the repository. 
 
 Run **npm i** to install all dependencies
 
